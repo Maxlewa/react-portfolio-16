@@ -1,42 +1,77 @@
 #sectionContact
-    display: flex
-    justify-content: center
-    font-size: 30px
-    margin-top: 40px
-    #divContactLeft
-        font-family: typewriter-regular
-        width: 40%
-        #divNameMail
-            display: flex
-            margin-bottom: 40px
-            .nameMail
-                width: 50%
-                input
-                    width: 90%
-        #divMessage
-            textarea
-                width: 95%
-                background-color: black
-                color: white
-                border-radius: 4px
-        #divSubmit
-            margin-top: 40px
-            text-align: center
-            button
-                color: white
-                background-color: black
-                font-family: unbutton
-                font-size: 30px
-                padding: 10px 20px 20px 20px
-                transition: 0.1s ease
-            button:hover
-                outline: 2px solid black
-                background-color: white
-                color: black
-                transition: 0.1s ease
-    #divContactRight
-        width: 40%
-        font-family: libertiner
+    margin-top: 70px
+    h1
+        font-family: forum
+        font-size: 60px
+        position: fixed
+        right: 10%
+        bottom: 20%
+    #twoDivs
+        display: flex
+        justify-content: center
+        font-size: 30px
+        #divContactLeft
+            font-family: typewriter-regular
+            width: 45%
+            #divNameMail
+                display: flex
+                margin-bottom: 20px
+                .nameMail
+                    width: 50%
+                    p
+                        font-size: 24px
+                    input
+                        width: 90%
+            #divMessage
+                p
+                    font-size: 24px
+                textarea
+                    width: 95%
+                    background-color: black
+                    color: white
+                    border-radius: 4px
+            #divSubmit
+                margin-top: 30px
+                text-align: center
+                button
+                    color: white
+                    background-color: black
+                    font-family: unbutton
+                    font-size: 30px
+                    padding: 10px 20px 20px 20px
+                    transition: 0.1s ease
+                    border-radius: 4px
+                button:hover
+                    // outline: 2px solid black
+                    // border-radius: 4px
+                    box-shadow: 0 0 4px #000000
+                    background-color: white
+                    color: black
+                    transition: 0.1s ease
+        #divContactRight
+            width: 45%
+            font-family: libertiner
+            margin-left: 30px
+            padding-left: 30px
+            margin-top: 50px
+            .contactPart
+                display: flex
+                margin-bottom: 20px
+                p
+                    margin-left: 20px
+                i
+                    margin-top: 12px
+                #pAdress
+                    margin-left: 33px
+                #pMail
+                    font-size: 26px
+            .contactPart:nth-child(2)
+                p
+                    font-family: open
+                    font-size: 32px
+            .contactPart:nth-child(3)
+                p
+                    font-family: typewriter-regular
 
 p
     margin: 10px 0 10px 0
