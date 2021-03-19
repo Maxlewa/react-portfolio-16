@@ -5,9 +5,9 @@ export default function LoydComponent() {
     return (
         <div id="divLoyd">
             <div id="divImg">
-                {/* <Fade> */}
+                <Fade>
                 <img src="./images/background.png" alt=""/>
-                {/* </Fade> */}
+                </Fade>
             </div>
             <div id="playerSpotify">
                 <Fade>
@@ -30,8 +30,10 @@ export default function LoydComponent() {
                 <a href="https://www.deezer.com/en/artist/13852921" target="_blank"><i class="fab fa-deezer"></i></a>
             </div>
             </Fade>
-            <div>
-                <img src="./images/sonymusic.png" alt=""/>
+            <div id="divSony">
+                <Fade>
+                <img src="./images/sonybis.png" alt=""/>
+                </Fade>
             </div>
         </div>
     )
