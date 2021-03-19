@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom'
 import HoverVideoPlayer from 'react-hover-video-player';
 import Flash from 'react-reveal/Flash';
+import Fade from 'react-reveal/Fade';
 
 export default function Presentation() {
 
@@ -14,6 +16,7 @@ export default function Presentation() {
     }
     
     return (
+        <Fade>
         <div id="presentation">
             {/* <video onMouseEnter={(e) => playVideo(e)} onMouseOut={(e) => stopVideo(e)} src="./videos/vidsquareme.mp4"></video> */}
             {/* <Fade bottom> */}
@@ -40,11 +43,12 @@ export default function Presentation() {
 
                     <p>I particularly enjoy {hover == true ? <Flash><span onMouseOut={backElectronic} id="spanElectronic">electronic</span></Flash> : <span onMouseOver={hoverElectronic} id="spanElectronic">electronic</span>} music with heavy beats and distorted synths, punchy rock n’roll, <span id="spanGlitch">g̶l̴i̷t̷c̵h̵ ̸ar̶t</span>, & <span id="spanHorror">horror</span> movies.</p>
 
-                    <p>I produce songs for other artists but my own & main musical project is called <span id="spanLoyd">LØYD</span>.</p>
+                    <p>I produce songs for other artists but my own & main musical project is called <span id="spanLoyd"><NavLink to="/loyd">LØYD</NavLink></span>.</p>
                     <p>It’s all about <span id="spanDystopia"><a href="https://en.wikipedia.org/wiki/Dystopia" target="_blank">dystopia</a></span>.</p>
                     <p>I also was recently introduced into the cryptoworld, and plan to release my first NFT soon.<img src="./images/ETH.png" alt="Ethereum" id="ethereum"/></p>
                 </div>
             {/* </Fade> */}
         </div>
+        </Fade>
     )
 }
