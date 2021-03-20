@@ -16,7 +16,7 @@ export default function Presentation() {
     }
     
     return (
-        <Fade>
+        <Fade id="fade">
         <div id="presentation">
             {/* <video onMouseEnter={(e) => playVideo(e)} onMouseOut={(e) => stopVideo(e)} src="./videos/vidsquareme.mp4"></video> */}
             {/* <Fade bottom> */}
