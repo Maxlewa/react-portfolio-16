@@ -11,6 +11,8 @@
         opacity: 0.9
         left: 50%
         transform: translateX(-50%)
+        #iframeTwo
+            display: none
 
 
 #divPresse
@@ -181,3 +183,53 @@
         font-size: 40px
     .fa-amazon
         font-size: 40px
+
+// IPHONE X
+@media screen and (min-width:375px) and (max-width:539px)
+
+    #divLoyd
+        background-color: black !important
+        height: 1366px
+        #divImg
+            img
+                display: none
+        #playerSpotify
+            top: 35vw
+            #iframeOne
+                display: none
+            #iframeTwo
+                display: block
+
+    #divPresse
+        top: 138vw
+        left: 33%
+
+    #divStreaming
+        top: 136vw
+        right: 33%
+        a
+            color: #cfcfcf
+
+    #imgTipik
+        filter: brightness(80%) grayscale(100%)
+        margin-bottom: 43px
+    #imgAvenir
+        margin-bottom: 43px
+    #imgDH
+        margin-bottom: 43px
+    #imgDB
+        filter: invert(100%) brightness(100%)
+        margin-bottom: 43px
+
+    #divSony
+        bottom: 62vw
+        display: none
+
+    .fa-spotify
+        font-size: 30px
+    .fa-apple
+        font-size: 30px
+    .fa-deezer
+        font-size: 30px
+    .fa-amazon
+        font-size: 30px

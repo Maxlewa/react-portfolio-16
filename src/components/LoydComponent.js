@@ -11,7 +11,8 @@ export default function LoydComponent() {
             </div>
             <div id="playerSpotify">
                 <Fade>
-                <iframe src="https://open.spotify.com/embed/artist/6nTLSLkxAQp1F8L0VFvCpR" width="700" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/artist/6nTLSLkxAQp1F8L0VFvCpR" width="700" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" id="iframeOne"></iframe>
+                <iframe src="https://open.spotify.com/embed/artist/6nTLSLkxAQp1F8L0VFvCpR" width="300" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media" id="iframeTwo"></iframe>
                 </Fade>
             </div>
             <Fade right>

@@ -21,7 +21,8 @@ export default function ContactComponent() {
                     </div>
                     <div id="divMessage">
                         <p>Message</p>
-                        <textarea name="" id="" cols="30" rows="15"></textarea>
+                        <textarea name="" id="" cols="30" rows="15" id="textareaOne"></textarea>
+                        <textarea name="" id="" cols="30" rows="10" id="textareaTwo"></textarea>
                     </div>
                     <div id="divSubmit">
                         <button id="buttonSubmit">Submit</button>
@@ -37,7 +38,7 @@ export default function ContactComponent() {
                     </div>
                     <div className="contactPart">
                         <i class="fas fa-phone-alt"></i>
-                        <p>+32 478 73 29 40</p>
+                        <p id="pTelephone">+32 478 73 29 40</p>
                     </div>
                     <div className="contactPart">
                         <i class="fas fa-envelope"></i>
