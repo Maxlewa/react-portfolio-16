@@ -35,6 +35,8 @@
             font-family: typewriter-regular
             font-size: 18px
 
+
+// BIGGER
 @media screen and (min-width:1025px) and (max-width:1112px)
     #header
         .navLinks
@@ -47,13 +49,32 @@
             width: 50%
 
 // IPAD
-@media screen and (min-width:540px) and (max-width:769px)
+@media screen and (min-width:751px) and (max-width:769px)
     #header
         .navLinks
             width: 50%
 
+@media screen and (min-width:540px) and (max-width:750px)
+    #header
+        .navLinks
+            width: 60%
+
 // IPHONE X
 @media screen and (min-width:375px) and (max-width:539px)
+    #header
+        display: block
+        #headerLeft
+            padding-left: 0
+            text-align: center
+            margin-bottom: 20px
+        .navLinks
+            width: 100%
+            padding: 0
+            margin: auto
+            text-align: center
+
+// SMALLER
+@media screen and (max-width:375px)
     #header
         display: block
         #headerLeft
