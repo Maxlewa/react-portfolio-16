@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade';
-import Spin from 'react-reveal/Spin';
-import Flash from 'react-reveal/Flash';
 
 export default function AboutComponent() {
 
