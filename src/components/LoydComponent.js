@@ -27,9 +27,9 @@ export default function LoydComponent() {
             <Fade left>
             <div id="divStreaming">
                 <a href="https://open.spotify.com/artist/6nTLSLkxAQp1F8L0VFvCpR?si=dsIqHAP0RIatFnRQdl9MPQ"><i class="fab fa-spotify" target="_blank"></i></a>
-                <a href="https://music.apple.com/be/artist/l%C3%B8yd/1334208192?l=fr" target="_blank"><i class="fab fa-apple"></i></a>
-                <a href="https://music.amazon.com/artists/B078BF5Z4X/l%C3%B8yd" target="_blank"><i class="fab fa-amazon"></i></a>
-                <a href="https://www.deezer.com/en/artist/13852921" target="_blank"><i class="fab fa-deezer"></i></a>
+                <a href="https://music.apple.com/be/artist/l%C3%B8yd/1334208192?l=fr" target="_blank"><i className="fab fa-apple"></i></a>
+                <a href="https://music.amazon.com/artists/B078BF5Z4X/l%C3%B8yd" target="_blank"><i className="fab fa-amazon"></i></a>
+                <a href="https://www.deezer.com/en/artist/13852921" target="_blank"><i className="fab fa-deezer"></i></a>
             </div>
             </Fade>
             <div id="divSony">

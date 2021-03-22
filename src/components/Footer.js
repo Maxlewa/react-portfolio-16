@@ -5,12 +5,12 @@ export default function Footer() {
     return (
         <div id="footer">
             <div id="footerLeft">
-                <a href="https://www.facebook.com/LoydBE/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/loydbe/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/LoydMusicBE" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.youtube.com/channel/UCxhkP9IgusYDaQU5dW-w-fQ" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://github.com/Maxlewa" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:lemairemaxence@hotmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/LoydBE/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/loydbe/" target="_blank"><i className="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/LoydMusicBE" target="_blank"><i className="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCxhkP9IgusYDaQU5dW-w-fQ" target="_blank"><i className="fab fa-youtube"></i></a>
+                <a href="https://github.com/Maxlewa" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="mailto:lemairemaxence@hotmail.com"><i className="fas fa-envelope"></i></a>
             </div>
             <div id="footerRight">
                 <h3>2021 Copyright ©️ Maxence Lemaire</h3>
